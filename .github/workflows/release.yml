@@ -41,4 +41,4 @@ jobs:
       - name: Install packages
         run: |
           sudo apt-get update
-          sudo apt update && apt install -y helloworld-0.0.${{ github.run_number }}-Linux.deb
+          sudo apt install -y helloworld-0.0.${{ github.run_number }}-Linux.deb
